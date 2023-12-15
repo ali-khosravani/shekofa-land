@@ -8,12 +8,7 @@ function App() {
         <p>
           دوربین مداربسته -گیت کنترل تردد-سامانه های جامع حضور و غیاب و پارکینگ
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href='#'>
           شکوفالند
         </a>
       </header>
