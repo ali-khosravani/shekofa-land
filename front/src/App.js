@@ -1,16 +1,13 @@
 import './App.css';
 
 function App() {
-  return (
-    
+  return (    
     <div className="App">
       <header className="App-header">        
-        <p>
-          دوربین مداربسته -گیت کنترل تردد-سامانه های جامع حضور و غیاب و پارکینگ
-        </p>
-        <a href='#'>
-          شکوفالند
-        </a>
+        <p className="App-font">
+          دوربین مداربسته -گیت کنترل تردد-سامانه های جامع حضور و غیاب و پارکینگ        
+        </p>        
+        <p className='App-font-logo'>شکوفالند</p>
       </header>
     </div>
   );

@@ -1,11 +1,10 @@
 .App {
   text-align: center;
+  min-height: 100%;
+  margin-bottom: -50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -22,7 +21,14 @@
   font-size: calc(10px + 2vmin);
   color: white;  
 }
-
+.App-font{
+  font-family: Vazir;
+}
+.App-font-logo{
+  font-family: Vazir;
+  color: #61dafb;
+  font-size: 60px;
+}
 .App-link {
   color: #61dafb;
 }
