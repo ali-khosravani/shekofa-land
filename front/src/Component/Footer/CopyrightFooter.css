@@ -1,0 +1,11 @@
+.CopyFooter{
+    height: 30px;
+    width: 100%;
+    background-color: #272323;
+}
+
+.CopyFooter p{  
+    color:#fff;
+    font-family: Sahel;
+    text-align: center;
+}

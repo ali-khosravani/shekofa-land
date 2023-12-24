@@ -1,12 +1,16 @@
-import './Footer.css';
+import './Footer.css'
 
 function Footer() {
-    return(    
-        <div className="footer mt-auto py-3 bg-light">
-            <div className="container">
-                <span className="text-muted">تمامی حقوق برای شرکت <b>پوشش کالا پویان و پارسا</b> محفوظ است.1402</span>
+    return (
+        <div className='footer'>
+            <div>
+                <div className='footer-1'>راهنمای سریع</div>
+                <div className='footer-2'>دسترسی</div>
+                <div className='footer-3'>قوانین</div>
+                <div className='footer-4'>مجوز</div>
             </div>
-        </div>        
-    )
+
+        </div>
+    );
 }
 export default Footer;

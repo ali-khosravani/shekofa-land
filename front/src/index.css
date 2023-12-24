@@ -5,15 +5,25 @@
   font-weight: normal;
   font-style: normal;
 }
-body {
-  margin: 0;
-  font-family: Vazir;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100%;  
-  margin: 0;
+@font-face {
+  font-family: Parastoo-Bold;
+  src: local('Parastoo-Bold') ,url(./assets/font/Parastoo-Bold.woff) format('woff');
+  src: url(./assets/font/Parastoo-Bold.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-code {
-  font-family: Vazir;
+@font-face {
+  font-family: Sahel;
+  src: local('Sahel') ,url(./assets/font/Sahel.woff) format('woff');
+  src: url(./assets/font/Sahel.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+

@@ -1,18 +1,9 @@
 .App {
-  text-align: center;
-  min-height: 100%;
-  margin-bottom: -50px;
+  text-align: center;  
 }
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,21 +14,11 @@
 }
 .App-font{
   font-family: Vazir;
+  color: #000;
 }
 .App-font-logo{
-  font-family: Vazir;
+  font-family: Parastoo-Bold;
   color: #61dafb;
   font-size: 60px;
 }
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
