@@ -14,7 +14,7 @@ root.render(
     <Header />
     <App />
     <Footer />
-    <CopyrightFooter />
+    <CopyrightFooter/>
   </React.StrictMode>
 );
 reportWebVitals();

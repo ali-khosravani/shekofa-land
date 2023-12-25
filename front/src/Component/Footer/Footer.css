@@ -1,30 +1,11 @@
-.footer{
-    height: 200px;
+.footer{   
+    text-align: center; 
+    width: 100%;   
+    clear: both;
+}
+.footer-1{      
     background-color: #665b5b;
     font-family: Sahel;
     color: white;
-    text-align: center; 
-    width: 100%;   
-}
-.footer-1{
-    width: 25%;
-    float: right;
-    border-left: 1px solid #fff;
-    height: 200px;
-}
-.footer-2{
-    width: 25%;
-    float: right;
-    border-left: 1px solid #fff;
-    height: 200px;
-}
-.footer-3{
-    width: 25%;
-    float: right;
-    border-left: 1px solid #fff;
-    height: 200px;
-}
-.footer-4{    
-    float: right;
-    width: 25%;
+    height: 300px;
 }

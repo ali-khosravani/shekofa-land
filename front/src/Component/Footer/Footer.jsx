@@ -3,13 +3,14 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='footer'>
-            <div>
-                <div className='footer-1'>راهنمای سریع</div>
-                <div className='footer-2'>دسترسی</div>
-                <div className='footer-3'>قوانین</div>
-                <div className='footer-4'>مجوز</div>
+            <div className='container-fluid'>
+                <div className='row'>
+                    <div className='footer-1 col-sm-12 col-md-6 col-lg-3 pt-3'>راهنمای سریع</div>
+                    <div className='footer-1 col-sm-12 col-md-6 col-lg-3 pt-3'>دسترسی</div>
+                    <div className='footer-1 col-sm-12 col-md-6 col-lg-3 pt-3'>قوانین</div>
+                    <div className='footer-1 col-sm-12 col-md-6 col-lg-3 pt-3'>مجوز</div>
+                </div>
             </div>
-
         </div>
     );
 }
