@@ -1,22 +1,19 @@
 .MainHeader{
-    height: 50px;
+    height: 60px;
     background-color: #fff;
     width: 100%;
     font-family: Vazir;
     display: block;
-
 }
 .main-menu ul li{
     height: 100%;
-    padding: 0.5rem 0;
     position: relative;
     display: list-item;
 }
 .main-menu ul li a{
     color: #385e9d;
-    font-size: 16px;
-    padding: 0 10px;
-    border-left: 1px solid rgba(18, 18, 18, 0.2);
+    font-size: 18px;
+    padding: 0 10px;    
     text-decoration: none;
 }
  .main-menu ul li a:hover{
