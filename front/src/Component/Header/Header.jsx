@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom';
 import './Header.css'
 import home from './../../../src/assets/icon/house-fill.svg';
+
 
 
 function Header() {
@@ -19,8 +21,8 @@ function Header() {
                 <li className='nav-item'><a href='/'>نرم افزار</a></li>
                 <li className='nav-item'><a href='/'>پشتیبانی</a></li>
                 <li className='nav-item'><a href='/'>بلاگ</a></li>
-                <li className='nav-item'><a href='/'>ارتباط با ما</a></li>
-                <li className='nav-item'><a href='/'>درباره ما</a></li>
+                <li className='nav-item'><Link to="/ContactUs">ارتباط با ما</Link></li>
+                <li className='nav-item'><Link to="/About">درباره ما</Link></li>
               </ul>
             </div>          
         </nav>

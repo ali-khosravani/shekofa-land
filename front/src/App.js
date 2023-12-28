@@ -1,15 +1,20 @@
+import { Routes, Route } from 'react-router-dom';
+
+import About from './About';
+import ContactUs from './ContactUs';
+import Home from './Home';
+
 import './App.css';
 
 function App() {
-  return (    
+  return (       
     
     <div className="App">
-      <div className="App-header">        
-        <p className="App-font">
-          دوربین مداربسته -گیت کنترل تردد-سامانه های جامع حضور و غیاب و پارکینگ        
-        </p>        
-        <p className='App-font-logo'>شکوفالند</p>
-      </div>      
+        <Routes>
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/about" element={<About />} />
+          <Route path='/' element={<Home/>} />
+       </Routes>           
     </div>
     
     
