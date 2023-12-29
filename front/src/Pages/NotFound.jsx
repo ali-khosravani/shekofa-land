@@ -9,7 +9,7 @@ function Home() {
         <div className="App-header">
             
             <p className="App-font">متاسفیم!!! صفحه مورد نظر شما را پیدا نکردیم.</p>
-            <p><Link to="/">صفحه نخست</Link></p>
+            <p className="App-font-logo"><Link to="/">صفحه نخست</Link></p>
             <p className="App-font-logo">شکوفالند</p>
         </div>
        
