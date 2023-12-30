@@ -11,8 +11,8 @@ function Header() {
           aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">          
           <span class="navbar-toggler-icon"></span>
         </button>
-        <nav className="MainHeader collapse navbar nav-col navbar-collapse" >
-          <div className='main-menu pt-4' id="navbarToggleExternalContent" dir='rtl'>
+        <nav className='MainHeader collapse navbar-collapse navbar nav-col' id="navbarToggleExternalContent" >
+          <div className='main-menu  pt-4'  dir='rtl'>
             <ul className='d-flex list-unstyled navbar-nav'>
               <li className='nav-item'><Link to="/" className='active'><img src={home} alt='Home' width={24} height={24} /></Link></li>
               <li className='nav-item'><Link to='/Attendance'>کنترل تردد</Link></li>
