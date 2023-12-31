@@ -11,6 +11,9 @@ import Attendance from './Attendance/Attendance';
 import Rule from './Pages/Rule';
 import Privacy from './Pages/Privacy';
 import Faq from './Pages/Faq';
+import Login from './Login/Login';
+import Register from './Login/Register';
+import Hardware from './Hardware/Hardware';
 
 import './App.css';
 
@@ -30,6 +33,9 @@ function App() {
           <Route path='/Faq' element={<Faq/>} />
           <Route path='/Privacy' element={<Privacy/>} />
           <Route path='/Rule' element={<Rule/>} />
+          <Route path='/Login' element={<Login/>} />
+          <Route path='/Register' element={<Register/>} />
+          <Route path='/Hardware' element={<Hardware/>} />
        </Routes>           
     </div>
     

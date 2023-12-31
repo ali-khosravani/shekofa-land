@@ -1,10 +1,11 @@
 import React from "react";
 
-function Login() {
+
+function Register() {
     return(
         <>
-        Login
+        Register
         </>
     );
 }
-export default Login;
+export default Register;

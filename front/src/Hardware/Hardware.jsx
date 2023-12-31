@@ -1,10 +1,10 @@
 import React from "react";
 
-function Login() {
+function Hardware() {
     return(
         <>
-        Login
+        Hardware
         </>
     );
 }
-export default Login;
+export default Hardware;

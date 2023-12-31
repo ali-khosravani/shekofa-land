@@ -8,11 +8,11 @@ function Footer() {
                 <div className='footer justify-content-center  text-center col-sm-12 col-md-6 col-lg-3 pt-3'>
                     <div className='shortcutFooter'>با شکوفالند</div>
                     <div>
-                    <ul className='list-unstyled'>
-                    <li className='nav-item pt-5'><Link to="/Blog" className='text-decoration-none'>بلاگ</Link></li>
-                        <li className='nav-item pt-3'><Link to="/About" className='text-decoration-none'>درباره ما</Link></li>
-                        <li className='nav-item pt-3'><Link to="/ContactUs" className='text-decoration-none'>ارتباط با ما</Link></li>
-                    </ul>
+                        <ul className='list-unstyled'>
+                            <li className='nav-item pt-5 '><Link to="/Blog" className='text-decoration-none'>بلاگ</Link></li>
+                            <li className='nav-item pt-3'><Link to="/About" className='text-decoration-none'>درباره ما</Link></li>
+                            <li className='nav-item pt-3'><Link to="/ContactUs" className='text-decoration-none'>ارتباط با ما</Link></li>
+                        </ul>
                     </div>
                 </div>
                 <div className='footer justify-content-center  text-center col-sm-12 col-md-6 col-lg-3 pt-3'>
@@ -29,9 +29,9 @@ function Footer() {
                     <div className='shortcutFooter'>راهنمای خرید</div>
                     <div>
                         <ul className='list-unstyled'>
-                            <li className='pt-5'>درخواست دمو</li>
-                            <li className='pt-3'>ثبت سفارش</li>
-                            <li className='pt-3'>سفارشی سازی نرم افزار</li>
+                            <li className='pt-5'><Link to="/Support" className='text-decoration-none'> درخواست دمو</Link></li>
+                            <li className='pt-3'><Link to="/Hardware" className='text-decoration-none'>ثبت سفارش</Link></li>
+                            <li className='pt-3'><Link to="/Software" className='text-decoration-none'>سفارشی سازی نرم افزار</Link></li>
                         </ul>
                     </div>
                 </div>
