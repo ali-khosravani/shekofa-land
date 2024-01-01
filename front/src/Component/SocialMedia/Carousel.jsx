@@ -7,6 +7,7 @@ import Visitor from '../../assets/icon/Visitor.png';
 
 function Carousel() {
     return(
+        <div className='container-fluid'>
         <div className="row">
                 <div className="col-lg-3 col-md-6">
                 <img src={Attendance} alt='Home' width={96} height={96} />
@@ -32,6 +33,7 @@ function Carousel() {
                     <p>بهترین راهکار برای مدیریت سلف های غذا خوری</p>
                     <p><a className="btn btn-secondary" href="#">بیشتر &raquo;</a></p>
                 </div>
+            </div>
             </div>
     );
 }

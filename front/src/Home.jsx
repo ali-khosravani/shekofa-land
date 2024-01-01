@@ -6,14 +6,17 @@ import Carousel  from './Component/SocialMedia/Carousel';
 import SocialMedia from './Component/SocialMedia/SocialMedia';
 
 
+
 function Home() {
     return (
         <>
             <Header />
+           
             <div className="App-header">
                 <p className="App-font">نرم افزار حضور و غیاب - کنترل تردد - نرم افزار پارکینگ</p>
                 <p className="App-font-logo">شکوفالند</p>
             </div>
+            
             <Carousel/>
             <SocialMedia/>
             <Footer />
