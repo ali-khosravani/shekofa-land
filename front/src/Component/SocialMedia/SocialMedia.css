@@ -1,7 +1,6 @@
 .SocialMedia{
-    height: 50px;
-    background-color: aliceblue;
-    font-family: Vazir;
+    height: 40px;
+    font-family: Tanha;
 }
 .SocialMedia-font{
     font-family: Parastoo-Bold;
@@ -17,3 +16,28 @@
     font-family: Parastoo-Bold;
    
 }
+
+
+.social-links {
+    padding-left: 60px;
+  }
+  
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #444;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+  
+.social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+  }

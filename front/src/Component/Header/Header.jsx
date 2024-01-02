@@ -5,7 +5,7 @@ import * as Icon from 'react-bootstrap-icons';
 function Header() {
   return (
 
-    <nav className='navbar fixed-top navbar-expand-sm'>
+    <nav className='navbar fixed-top navbar-expand-sm mt-5'>
       <div className="container-fluid">
         <button class="navbar-toggler" type="button"
           data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"

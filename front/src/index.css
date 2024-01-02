@@ -12,7 +12,14 @@
   font-weight: normal;
   font-style: normal;
 }
-
+@font-face{
+  font-family:Tanha;
+  font-weight: 100;
+  src:url('./assets/font/Tanha.eot');
+  src:url('./assets/font/Tanha.ttf') format("truetype"),
+  url('./assets/font/Tanha.woff') format("woff"),
+  url('./assets/font/Tanha.woff2') format ("woff2");
+  }
 @font-face {
   font-family: Sahel;
   src: local('Sahel') ,url(./assets/font/Sahel.woff) format('woff');
