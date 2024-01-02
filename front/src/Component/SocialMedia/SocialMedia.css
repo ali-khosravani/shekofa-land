@@ -1,5 +1,19 @@
 .SocialMedia{
     height: 50px;
     background-color: aliceblue;
-    font-family: Sahel;
+    font-family: Vazir;
+}
+.SocialMedia-font{
+    font-family: Vazir;
+    font-size: 22px;
+    color: black;
+}
+.SocialMedia-Para{
+    font-family: Vazir;
+    font-size: 16px;
+    color: black;
+}
+.SocialMedia-Button{
+    font-family: Parastoo-Bold;
+   
 }
