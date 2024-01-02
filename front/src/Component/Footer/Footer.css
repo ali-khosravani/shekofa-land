@@ -1,5 +1,5 @@
 .footer{   
-    background-color: #665b5b;
+    background-color: #362e2e;
     font-family: Sahel;
     color: white;
     height: 300px;
@@ -8,4 +8,19 @@
     font-family: Parastoo-Bold;
     font-size: 22px;
     color: #ffb81c;
+}
+
+.CopyFooter{
+    height: 30px;
+    width: 100%;
+    background-color: #272033;
+    clear: both;
+}
+
+.CopyFooter-p{  
+    color:#fff;
+    font-family: Sahel;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
 }

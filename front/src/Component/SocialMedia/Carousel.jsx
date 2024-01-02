@@ -9,31 +9,31 @@ import Visitor from '../../assets/icon/Visitor.png';
 
 function Carousel() {
     return(
-        <div className='container-fluid'>
+        <div className='container-fluid p-4'>
         <div className="row">
                 <div className="col-lg-3 col-md-6">
-                <img src={Attendance} alt='Home' width={96} height={96} />
+                <img src={Attendance} alt='Home' width={96} height={96} className="m-3" />
                
                     <h2 className="fw-normal SocialMedia-font pt-3">کنترل تردد</h2>
                     <p className="SocialMedia-Para">راهکاری جامع برای کنترل تردد در سازمان شما</p>
                     <p className="SocialMedia-Button"><a className="btn btn-secondary" href="#">بیشتر &raquo;</a></p>
                 </div>
                 <div className="col-lg-3 col-md-6">
-                <img src={Visitor} alt='Home' width={96} height={96} />
+                <img src={Visitor} alt='Home' width={96} height={96}  className="m-3"/>
 
                     <h2 className="fw-normal SocialMedia-font pt-3">مراجعین</h2>
                     <p className="SocialMedia-Para">راهنمایی مراجعه کننده به سازمان شما و عدم معطلی ارباب رجوع</p>
                     <p className="SocialMedia-Button"><a className="btn btn-secondary" href="#">بیشتر &raquo;</a></p>
                 </div>
                 <div className="col-lg-3 col-md-6">
-                    <img src={Parking} alt='Home' width={96} height={96} />
+                    <img src={Parking} alt='Home' width={96} height={96} className="m-3" />
                 
                     <h2 className="fw-normal SocialMedia-font pt-3">پارکینگ</h2>
                     <p className="SocialMedia-Para">نرم افزاری همه منظوره برای مدیریت پارکینگ ها</p>
                     <p className="SocialMedia-Button"><a className="btn btn-secondary" href="#">بیشتر &raquo;</a></p>
                 </div>
                 <div className="col-lg-3 col-md-6">
-                    <img src={SelfService} alt='Home' width={96} height={96} />
+                    <img src={SelfService} alt='Home' width={96} height={96} className="m-3" />
             
                     <h2 className="fw-normal SocialMedia-font pt-3">سلف غذا خوری</h2>
                     <p className="SocialMedia-Para">بهترین راهکار برای مدیریت سلف های غذا خوری</p>

@@ -1,9 +1,11 @@
-import './CopyrightFooter.css';
+import React from 'react';
+
+import './Footer.css';
 
 function CopyrightFooter() {
     return (
         <div className="CopyFooter">
-            <p>
+            <p className='CopyFooter-p'>
                 تمامی حقوق برای شرکت <b>پوشش کالا پویان و پارسا</b> محفوظ است
             </p>
         </div>
