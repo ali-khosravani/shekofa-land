@@ -3,18 +3,22 @@ import Header from './Component/Header/Header';
 import Footer from './Component/Footer/Footer';
 import CopyrightFooter from './Component/Footer/CopyrightFooter';
 import Carousel from './Component/SocialMedia/Carousel';
-import SocialMedia from './Component/SocialMedia/SocialMedia';
 
-
+import './App.css'
 
 function Home() {
     return (
         <>
-            <SocialMedia />
             <Header />
-            <div className="App-header">
-                <p className="App-font">نرم افزار حضور و غیاب - کنترل تردد - نرم افزار پارکینگ</p>
-                <p className="App-font-logo">شکوفالند</p>
+            <div className="Home-Background">
+                <div className="App-header">
+                    <div className="text-center">
+                        <p className="App-font">مدیریت هوشمند با </p>
+                        <p className="App-font-logo">شکوفالند</p>
+                        <button className="btn btn-light">شروع کنید</button>
+                    </div>
+
+                </div>
             </div>
             <Carousel />
             <Footer />

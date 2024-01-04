@@ -3,22 +3,33 @@
 }
 
 .App-header {
-  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;  
+  font-size: calc(15px + 2vmin);
+  padding-left: 100px;
 }
+
 .App-font{
   font-family: Vazir;
-  color: #000;
+  color: #fff;
 }
 .App-font-logo{
   font-family: Parastoo-Bold;
   color: #61dafb;
-  font-size: 60px;
+  font-size: calc(40px + 2vmin);
 }
 
+.Home-Background {
+  /* The image used */
+  background-image: url(./assets//image/Home-Background.webp);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+  margin-top: 70px;
+}

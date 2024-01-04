@@ -15,8 +15,6 @@ import Login from './Login/Login';
 import Register from './Login/Register';
 import Hardware from './Hardware/Hardware';
 
-import './App.css';
-
 function App() {
   return (       
     

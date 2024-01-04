@@ -1,6 +1,5 @@
 .MainHeader{
-    height: 60px;
-    background-color: #fff;
+    height: 70px;
     width: 100%;
     font-family: Vazir;
     display: block;
@@ -14,8 +13,8 @@
     display: list-item;
 }
 .main-menu ul li a{
-    color: #385e9d;
-    font-size: 17px;
+    color: #fff;
+    font-size: 20px;
     padding: 0 10px;    
     text-decoration: none;
 }
