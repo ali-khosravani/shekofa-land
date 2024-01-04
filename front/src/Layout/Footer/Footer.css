@@ -14,10 +14,23 @@
     height: 30px;
     width: 100%;
     background-color: #272033;
+    color:#fff;
     clear: both;
 }
 
-.CopyFooter-p{  
+.CopyFooter-p{      
+    font-family: Tanha;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.StickyFooter{
+    height: 30px;
+    width: 100%;
+    background-color: #272033;
+}
+.StickyFooter-p{  
     color:#fff;
     font-family: Tanha;
     text-align: center;

@@ -1,11 +1,11 @@
 .App {
   text-align: center;  
-}
-
-.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+.App-header {   
   align-items: flex-end;
   justify-content: center;
   font-size: calc(15px + 2vmin);
@@ -23,13 +23,13 @@
 }
 
 .Home-Background {
-  /* The image used */
   background-image: url(./assets//image/Home-Background.webp);
   height: 100%; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-
   margin-top: 70px;
 }
+
+
