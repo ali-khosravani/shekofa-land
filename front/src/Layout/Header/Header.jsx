@@ -7,17 +7,16 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
-
-    <Navbar variant="dark" bg="dark" expand="md" fixed='top' className='MainHeader'>
+    <Navbar variant='light' bg='light' expand="md" fixed='top' className='MainHeader'>
       <Container fluid>
         <Navbar.Brand href="/">شکوفالند</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-dark-example" />
-        <Navbar.Collapse id="navbar-dark-example">
+        <Navbar.Toggle aria-controls="navbar-mobile" />
+        <Navbar.Collapse id="navbar-mobile">
           <Nav className='main-menu'>
             <NavDropdown
               id="nav-dropdown-Hardware"
               title="سخت افزار"
-              menuVariant="dark"
+              menuVariant="light"
             >
               <NavDropdown.Item href="/">گیت تردد</NavDropdown.Item>
               <NavDropdown.Item href="/">
@@ -33,7 +32,7 @@ function Header() {
             <NavDropdown
               id="nav-dropdown-software"
               title="نرم افزار"
-              menuVariant="dark"
+              menuVariant="light"              
             >
               <NavDropdown.Item href="/">نرم افزار پارکینگ</NavDropdown.Item>
               <NavDropdown.Item href="/">
@@ -47,7 +46,7 @@ function Header() {
             </NavDropdown>
             <Nav.Link href='/Support'>پشتیبانی</Nav.Link>
             <Nav.Link href='/Blog'>بلاگ</Nav.Link>
-            <Nav.Link href='/ContactUs' as="li">ارتباط با ما</Nav.Link>
+            <Nav.Link href='/ContactUs'>ارتباط با ما</Nav.Link>
             <Nav.Link href='/About'>درباره ما</Nav.Link>
           </Nav>
         </Navbar.Collapse>

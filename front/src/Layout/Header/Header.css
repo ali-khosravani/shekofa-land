@@ -1,10 +1,22 @@
 .MainHeader{
     height: 70px;
-    color: #fff;
     font-size: 20px;
-    font-family: Tanha;
+    font-family: Parastoo-Bold; 
 }
 .main-menu{
-    color: #fff;
     font-family: Vazir;
 }
+.nav-link {    
+    color: black !important;
+}
+.nav-link:hover {    
+    color: #ffb81c !important;
+}
+.dropdown-item{
+    color: black !important;
+}
+.dropdown-item:hover{
+    color: #ffb81c !important;
+}
+
+
