@@ -1,9 +1,4 @@
-import { Link } from 'react-router-dom';
 import './Header.css';
-import * as Icon from 'react-bootstrap-icons';
-import { Dropdown } from 'react-bootstrap';
-
-
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -20,39 +15,39 @@ function Header() {
         <Navbar.Collapse id="navbar-dark-example">
           <Nav className='main-menu'>
             <NavDropdown
-              id="nav-dropdown-dark-example"
+              id="nav-dropdown-Hardware"
               title="سخت افزار"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="/">Action</NavDropdown.Item>
+              <NavDropdown.Item href="/">گیت تردد</NavDropdown.Item>
               <NavDropdown.Item href="/">
-                Another action
+                گیت بازرسی افراد
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/">فلز یاب</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/">
-                Separated link
+                سایر محصولات
               </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown
-              id="nav-dropdown-dark-example"
+              id="nav-dropdown-software"
               title="نرم افزار"
               menuVariant="dark"
             >
-              <NavDropdown.Item href="/">Action</NavDropdown.Item>
+              <NavDropdown.Item href="/">نرم افزار پارکینگ</NavDropdown.Item>
               <NavDropdown.Item href="/">
-                Another action
+                نرم افزار حضور و غیاب
               </NavDropdown.Item>
-              <NavDropdown.Item href="/">Something</NavDropdown.Item>
+              <NavDropdown.Item href="/">سلف غذاخوری</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/">
-                Separated link
+                سایر نرم افزار ها
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href='/Support'>پشتیبانی</Nav.Link>
             <Nav.Link href='/Blog'>بلاگ</Nav.Link>
-            <Nav.Link href='/ContactUs'>ارتباط با ما</Nav.Link>
+            <Nav.Link href='/ContactUs' as="li">ارتباط با ما</Nav.Link>
             <Nav.Link href='/About'>درباره ما</Nav.Link>
           </Nav>
         </Navbar.Collapse>
