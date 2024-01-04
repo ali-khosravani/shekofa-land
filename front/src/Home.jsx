@@ -1,7 +1,7 @@
 import React from "react";
-import Header from './Component/Header/Header';
-import Footer from './Component/Footer/Footer';
-import CopyrightFooter from './Component/Footer/CopyrightFooter';
+import Header from './Layout/Header/Header';
+import Footer from './Layout/Footer/Footer';
+import CopyrightFooter from './Layout/Footer/CopyrightFooter';
 import Carousel from './Component/SocialMedia/Carousel';
 
 import './App.css'
