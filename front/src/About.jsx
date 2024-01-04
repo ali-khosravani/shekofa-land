@@ -11,7 +11,7 @@ function About() {
                 About
                 </div>
             </div>
-            <StickyFooter/> 
+            <StickyFooter/>             
         </>
     )
 }
