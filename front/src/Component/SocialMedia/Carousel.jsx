@@ -22,21 +22,21 @@ function Carousel() {
                 <img src={Visitor} alt='Home' width={96} height={96}  className="m-3"/>
 
                     <h2 className="fw-normal SocialMedia-font pt-3">مراجعین</h2>
-                    <p className="SocialMedia-Para">راهنمایی مراجعه کننده به سازمان شما و عدم معطلی ارباب رجوع</p>
+                    <p className="SocialMedia-Para">راهنمایی و هدایت مراجعه کنندگان به سازمان</p>
                     <p className="SocialMedia-Button"><a className="btn btn-secondary" href="#">بیشتر &raquo;</a></p>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <img src={Parking} alt='Home' width={96} height={96} className="m-3" />
                 
                     <h2 className="fw-normal SocialMedia-font pt-3">پارکینگ</h2>
-                    <p className="SocialMedia-Para">نرم افزاری همه منظوره برای مدیریت پارکینگ ها</p>
+                    <p className="SocialMedia-Para">نرم افزاری کامل و مرجع برای مدیریت پارکینگ</p>
                     <p className="SocialMedia-Button"><a className="btn btn-secondary" href="#">بیشتر &raquo;</a></p>
                 </div>
                 <div className="col-lg-3 col-md-6">
                     <img src={SelfService} alt='Home' width={96} height={96} className="m-3" />
             
                     <h2 className="fw-normal SocialMedia-font pt-3">سلف غذا خوری</h2>
-                    <p className="SocialMedia-Para">بهترین راهکار برای مدیریت سلف های غذا خوری</p>
+                    <p className="SocialMedia-Para">کاملتربن راهکار برای مدیریت سلف غذا خوری</p>
                     <p className="SocialMedia-Button"><a className="btn btn-secondary " href="#">بیشتر &raquo;</a></p>
                 </div>
             </div>
