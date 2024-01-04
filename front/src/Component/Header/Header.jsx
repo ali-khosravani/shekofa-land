@@ -1,37 +1,63 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
 import * as Icon from 'react-bootstrap-icons';
+import { Dropdown } from 'react-bootstrap';
+
+
+
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Header() {
   return (
 
-    <nav className='navbar fixed-top navbar-expand-md bg-dark'>
+    <Navbar variant="dark" bg="dark" expand="md" fixed='top' className='MainHeader'>
+      <Container fluid>
+        <Navbar.Brand href="/">شکوفالند</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar-dark-example" />
+        <Navbar.Collapse id="navbar-dark-example">
+          <Nav className='main-menu'>
+            <NavDropdown
+              id="nav-dropdown-dark-example"
+              title="سخت افزار"
+              menuVariant="dark"
+            >
+              <NavDropdown.Item href="/">Action</NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
 
-      <div className="container-fluid">
-
-        <button class="navbar-toggler" type="button"
-          data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
-          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <nav className='MainHeader collapse navbar-collapse navbar nav-col' id="navbarToggleExternalContent" >
-
-          <div className='main-menu  pt-4' dir='rtl'>
-            <ul className='d-flex list-unstyled navbar-nav'>
-              <li className='nav-item'><Link to="/" className='active'><Icon.HouseFill size={24} /></Link></li>
-              <li className='nav-item'><Link to='/Attendance'>کنترل تردد</Link></li>
-              <li className='nav-item'><Link to='/Software'>نرم افزار</Link></li>
-              <li className='nav-item'><Link to="/Support">پشتیبانی</Link></li>
-              <li className='nav-item'><Link to="/Blog">بلاگ</Link></li>
-              <li className='nav-item'><Link to="/ContactUs">ارتباط با ما</Link></li>
-              <li className='nav-item'><Link to="/About">درباره ما</Link></li>
-            </ul>           
-          </div>         
-
-        </nav>       
-      </div>
-    </nav>
+            <NavDropdown
+              id="nav-dropdown-dark-example"
+              title="نرم افزار"
+              menuVariant="dark"
+            >
+              <NavDropdown.Item href="/">Action</NavDropdown.Item>
+              <NavDropdown.Item href="/">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href='/Support'>پشتیبانی</Nav.Link>
+            <Nav.Link href='/Blog'>بلاگ</Nav.Link>
+            <Nav.Link href='/ContactUs'>ارتباط با ما</Nav.Link>
+            <Nav.Link href='/About'>درباره ما</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 

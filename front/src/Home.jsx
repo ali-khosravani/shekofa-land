@@ -10,14 +10,13 @@ function Home() {
     return (
         <>
             <Header />
-            <div className="Home-Background">
+            <div className="Home-Background" id="Home">
                 <div className="App-header">
                     <div className="text-center">
                         <p className="App-font">مدیریت هوشمند با </p>
                         <p className="App-font-logo">شکوفالند</p>
                         <button className="btn btn-light">شروع کنید</button>
                     </div>
-
                 </div>
             </div>
             <Carousel />
