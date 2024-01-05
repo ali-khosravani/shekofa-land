@@ -9,11 +9,11 @@ function Faq() {
     return(
         <>
        <Header/>
-        <div className="App">
+        
         <div className="App-header">
             Faq
         </div>
-        </div>
+        
         <StickyFooter/>
         </>
     )

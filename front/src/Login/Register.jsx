@@ -1,10 +1,13 @@
 import React from "react";
+import './Login.css';
 
 
 function Register() {
     return(
         <>
-        Register
+        <div className="App-header">
+            Register
+        </div>
         </>
     );
 }

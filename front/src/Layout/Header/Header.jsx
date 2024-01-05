@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Button } from 'react-bootstrap';
 
 function Header() {
   return (
@@ -12,7 +13,7 @@ function Header() {
         <Navbar.Brand href="/">شکوفالند</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-mobile" />
         <Navbar.Collapse id="navbar-mobile">
-          <Nav className='main-menu'>
+          <Nav className='main-menu me-auto'>
             <NavDropdown
               id="nav-dropdown-Hardware"
               title="سخت افزار"
@@ -32,7 +33,7 @@ function Header() {
             <NavDropdown
               id="nav-dropdown-software"
               title="نرم افزار"
-              menuVariant="light"              
+              menuVariant="light"
             >
               <NavDropdown.Item href="/">نرم افزار پارکینگ</NavDropdown.Item>
               <NavDropdown.Item href="/">
@@ -49,6 +50,12 @@ function Header() {
             <Nav.Link href='/ContactUs'>ارتباط با ما</Nav.Link>
             <Nav.Link href='/About'>درباره ما</Nav.Link>
           </Nav>
+          <Nav className='p-1'>
+            <Button variant='outline-secondary' href='/Register' className='m-1'>ثبت نام</Button>
+            <Button variant='outline-secondary' href='/Login' className='m-1'>ورود</Button>
+          </Nav>
+
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

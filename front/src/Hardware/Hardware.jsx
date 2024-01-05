@@ -1,9 +1,12 @@
 import React from "react";
+import './Hardware.css';
 
 function Hardware() {
     return(
         <>
-        Hardware
+        <div className="App-header">
+            Hardware
+        </div>
         </>
     );
 }

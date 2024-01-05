@@ -10,7 +10,7 @@ function Support() {
         <>
        <Header/>
         <div className="App-header">           
-          
+          Support
         </div>
         <Footer/>
         <CopyrightFooter/>

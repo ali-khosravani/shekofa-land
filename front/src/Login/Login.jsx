@@ -1,9 +1,12 @@
 import React from "react";
+import './Login.css';
 
 function Login() {
     return(
         <>
-        Login
+        <div className="App-header">
+            Login
+        </div>
         </>
     );
 }
