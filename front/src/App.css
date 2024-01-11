@@ -32,4 +32,16 @@
   margin-top: 70px;
 }
 
+@media screen and (max-width: 700px){
+  .Home-Background {
+    background-image: url(./assets/images/Home-Background-mobile.png);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    margin-top: 70px;
+  }
+}
+
 
