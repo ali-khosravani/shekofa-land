@@ -2,10 +2,10 @@ import React from "react";
 
 import './SocialMedia.css'
 
-import Parking from '../../assets/icons/Parking.png'
-import SelfService from '../../assets/icons/SelfService.png'
-import Attendance from '../../assets/icons/Attendance.png';
-import Visitor from '../../assets/icons/Visitor.png';
+import Parking from 'assets/icons/Parking.png'
+import SelfService from 'assets/icons/SelfService.png'
+import Attendance from 'assets/icons/Attendance.png';
+import Visitor from 'assets/icons/Visitor.png';
 
 function Carousel() {
     return(

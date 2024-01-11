@@ -1,7 +1,7 @@
 import React from "react";
-import Header from '../../layouts/Header/Header';
-import Footer from '../../layouts/Footer/Footer';
-import CopyrightFooter from '../../layouts/Footer/CopyrightFooter';
+import Header from 'layouts/Header/Header';
+import Footer from 'layouts/Footer/Footer';
+import CopyrightFooter from 'layouts/Footer/CopyrightFooter';
 
 
 import './Attendance.css';

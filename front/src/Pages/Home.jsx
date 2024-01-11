@@ -1,10 +1,10 @@
 import React from "react";
-import Header from '../layouts/Header/Header';
-import Footer from '../layouts/Footer/Footer';
-import CopyrightFooter from '../layouts/Footer/CopyrightFooter';
-import Carousel from '../components/SocialMedia/Carousel';
+import Header from 'layouts/Header/Header';
+import Footer from 'layouts/Footer/Footer';
+import CopyrightFooter from 'layouts/Footer/CopyrightFooter';
+import Carousel from 'components/SocialMedia/Carousel';
 
-import '../App.css'
+import 'App.css'
 
 function Home() {
     return (

@@ -1,19 +1,19 @@
 import { Routes, Route } from 'react-router-dom';
 
-import About from './pages/About';
-import ContactUs from './pages/ContactUs';
-import Home from './pages/Home';
-import Blog from './pages/Blog/Blog';
-import Support from './pages/Support/Support';
-import NotFound from './pages/NotFound';
-import Software from './pages/Software/Software';
-import Attendance from './pages/Attendance/Attendance';
-import Rule from './pages/Rule';
-import Privacy from './pages/Privacy';
-import Faq from './pages/Faq';
-import Login from './authentication/Login';
-import Register from './authentication/Register';
-import Hardware from './pages/Hardware/Hardware';
+import About from 'pages/About';
+import ContactUs from 'pages/ContactUs';
+import Home from 'pages/Home';
+import Blog from 'pages/Blog/Blog';
+import Support from 'pages/Support/Support';
+import NotFound from 'pages/NotFound';
+import Software from 'pages/Software/Software';
+import Attendance from 'pages/Attendance/Attendance';
+import Rule from 'pages/Rule';
+import Privacy from 'pages/Privacy';
+import Faq from 'pages/Faq';
+import Login from 'authentication/Login';
+import Register from 'authentication/Register';
+import Hardware from 'pages/Hardware/Hardware';
 
 function App() {
   return (       

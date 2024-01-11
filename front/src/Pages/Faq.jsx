@@ -1,7 +1,7 @@
 import React from "react";
 
-import Header from '../layouts/Header/Header';
-import StickyFooter from '../layouts/Footer/StickyFooter';
+import Header from 'layouts/Header/Header';
+import StickyFooter from 'layouts/Footer/StickyFooter';
 
 import './Pages.css';
 
