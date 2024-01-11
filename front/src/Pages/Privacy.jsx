@@ -1,6 +1,6 @@
 import React from "react";
-import Header from '../Layout/Header/Header';
-import CopyrightFooter from '../Layout/Footer/CopyrightFooter';
+import Header from '../layouts/Header/Header';
+import CopyrightFooter from '../layouts/Footer/CopyrightFooter';
 import './Pages.css';
 
 function Privacy() {

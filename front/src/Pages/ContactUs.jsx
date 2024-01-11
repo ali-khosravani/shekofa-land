@@ -1,9 +1,9 @@
 import React from "react";
-import Header from './Layout/Header/Header';
+import Header from '../layouts/Header/Header';
 
-import StickyFooter from './Layout/Footer/StickyFooter';
+import StickyFooter from '../layouts/Footer/StickyFooter';
 
-import './App.css';
+import '../App.css';
 
 function ContactUs() {
     return(

@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import NotFound from '../assets/image/NotFound.png';
+import NotFound from '../assets/images/NotFound.png';
 
 import './Pages.css';
 

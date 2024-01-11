@@ -1,0 +1,17 @@
+@media (min-width: 400px) {
+    .element {
+        background: #cccccc;
+    }
+}
+
+@media (min-width: 500px) {
+    .element {
+        background: #888888;
+    }
+}
+
+@media (min-width: 600px) {
+    .element {
+        background: #222222;
+    }
+}

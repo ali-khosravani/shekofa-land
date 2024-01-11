@@ -1,29 +1,29 @@
 @font-face {
   font-family: Vazir;
-  src: local('Vazir') ,url(./assets/font/Vazir.woff) format('woff');
-  src: url(./assets/font/Vazir.ttf) format('truetype');
+  src: local('Vazir') ,url(./assets/fonts/Vazir.woff) format('woff');
+  src: url(./assets/fonts/Vazir.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: Parastoo-Bold;
-  src: local('Parastoo-Bold') ,url(./assets/font/Parastoo-Bold.woff) format('woff');
-  src: url(./assets/font/Parastoo-Bold.ttf) format('truetype');
+  src: local('Parastoo-Bold') ,url(./assets/fonts/Parastoo-Bold.woff) format('woff');
+  src: url(./assets/fonts/Parastoo-Bold.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face{
   font-family:Tanha;
   font-weight: 100;
-  src:url('./assets/font/Tanha.eot');
-  src:url('./assets/font/Tanha.ttf') format("truetype"),
-  url('./assets/font/Tanha.woff') format("woff"),
-  url('./assets/font/Tanha.woff2') format ("woff2");
+  src:url('./assets/fonts/Tanha.eot');
+  src:url('./assets/fonts/Tanha.ttf') format("truetype"),
+  url('./assets/fonts/Tanha.woff') format("woff"),
+  url('./assets/fonts/Tanha.woff2') format ("woff2");
   }
 @font-face {
   font-family: Sahel;
-  src: local('Sahel') ,url(./assets/font/Sahel.woff) format('woff');
-  src: url(./assets/font/Sahel.ttf) format('truetype');
+  src: local('Sahel') ,url(./assets/fonts/Sahel.woff) format('woff');
+  src: url(./assets/fonts/Sahel.ttf) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
