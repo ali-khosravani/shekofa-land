@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import Header from 'layouts/Header/Header';
 
 import StickyFooter from 'layouts/Footer/StickyFooter';
@@ -6,6 +6,9 @@ import StickyFooter from 'layouts/Footer/StickyFooter';
 import '../App.css';
 
 function ContactUs() {
+    useEffect(()=>{
+        document.title = 'ارتباط با ما'
+    } ,[])
     return(
         <>
        <Header/>

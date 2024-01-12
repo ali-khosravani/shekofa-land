@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Hardware.css';
 
 function Hardware() {
-    return(
+    useEffect(() => {
+        document.title = 'سخت اقزار'
+    }, [])
+    return (
         <>
-        <div className="App-header">
-            Hardware
-        </div>
+            <div className="App-header">
+                Hardware
+            </div>
         </>
     );
 }

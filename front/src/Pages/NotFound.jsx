@@ -1,12 +1,14 @@
-import React from "react";
+import React ,{useEffect} from "react";
 import { Button } from "react-bootstrap";
 import NotFound from 'assets/images/NotFound.png';
 
 import './Pages.css';
 
 function Home() {
+    useEffect(()=>{
+        document.title = '404-Not Found'
+    },[])
     return (
-
         <div className="App-not-found">
             <div className="text-center">
                 <div>
