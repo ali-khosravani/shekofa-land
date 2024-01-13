@@ -7,7 +7,7 @@ import '../App.css';
 
 function ContactUs() {
     useEffect(()=>{
-        document.title = 'ارتباط با ما'
+        document.title =`${process.env.REACT_APP_TITLE}ارتباط با ما`
     } ,[])
     return(
         <>

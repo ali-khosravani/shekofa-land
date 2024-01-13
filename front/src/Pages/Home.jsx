@@ -8,7 +8,7 @@ import 'App.css'
 
 function Home() {
     useEffect(()=>{
-        document.title = 'صفحه نخست'
+        document.title =`${process.env.REACT_APP_TITLE}صفحه نخست`
     },[])
     return (
         <>

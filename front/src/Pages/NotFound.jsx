@@ -6,7 +6,7 @@ import './Pages.css';
 
 function Home() {
     useEffect(()=>{
-        document.title = '404-Not Found'
+        document.title =`${process.env.REACT_APP_TITLE}404-Not Found`
     },[])
     return (
         <div className="App-not-found">

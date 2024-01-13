@@ -7,7 +7,7 @@ import './Blog.css';
 
 function Blog() {
   useEffect(()=>{
-    document.title='بلاگ'
+    document.title=process.env.REACT_APP_TITLE+'بلاگ'
   },[])
     return(
         <>

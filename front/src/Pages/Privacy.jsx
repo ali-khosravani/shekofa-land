@@ -5,7 +5,7 @@ import './Pages.css';
 
 function Privacy() {
     useEffect(()=>{
-        document.title='حریم خصوصی'
+        document.title=`${process.env.REACT_APP_TITLE}حریم خصوصی`
     },[])
     return(
         <>

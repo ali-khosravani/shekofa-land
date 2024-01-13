@@ -4,7 +4,7 @@ import StickyFooter from 'layouts/Footer/StickyFooter';
 
 function About() {
     useEffect(()=>{
-        document.title = 'در باره ما'
+        document.title = `${process.env.REACT_APP_TITLE}در باره ما`
     },[])
     return (
         <>

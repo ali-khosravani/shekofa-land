@@ -7,7 +7,7 @@ import './Support.css';
 
 function Support() {
   useEffect(()=>{
-    document.title = 'پشتیبانی'
+    document.title =`${process.env.REACT_APP_TITLE}پشتیبانی`
   },[])
     return(
         <>

@@ -6,7 +6,7 @@ import './Software.css';
 
 function Software() {
     useEffect(()=>{
-        document.title = 'نرم افزار'
+        document.title =`${process.env.REACT_APP_TITLE}نرم افزار`
     },[])
     return(
         <>

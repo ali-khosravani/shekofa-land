@@ -3,7 +3,7 @@ import './Hardware.css';
 
 function Hardware() {
     useEffect(() => {
-        document.title = 'سخت اقزار'
+        document.title =`${process.env.REACT_APP_TITLE}سخت اقزار`
     }, [])
     return (
         <>

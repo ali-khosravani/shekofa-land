@@ -5,7 +5,7 @@ import './Pages.css';
 
 function Rule() {
     useEffect(()=>{
-        document.title='قوانین'
+        document.title=`${process.env.REACT_APP_TITLE}قوانین`
     },[])
     return(
         <>

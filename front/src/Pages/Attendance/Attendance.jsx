@@ -8,7 +8,7 @@ import './Attendance.css';
 
 function Attendance() {
     useEffect(()=>{
-        document.title='کنترل تردد'
+        document.title=`${process.env.REACT_APP_TITLE}کنترل تردد`
     },[])
     return(
         <>
