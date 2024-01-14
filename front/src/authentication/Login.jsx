@@ -3,7 +3,7 @@ import './Login.css';
 
 function Login() {
     useEffect(()=>{
-        document.title = 'ورود به سایت'
+        document.title =`${process.env.REACT_APP_TITLE}ورود به سایت`
     },[])
     return(
         <>

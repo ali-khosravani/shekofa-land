@@ -4,7 +4,7 @@ import './Login.css';
 
 function Register() {
     useEffect(()=>{
-        document.title = 'ثبت نام'
+        document.title =`${process.env.REACT_APP_TITLE}ثبت نام`
     },[])
     return(
         <>
